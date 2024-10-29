@@ -1,0 +1,9 @@
+{
+    "nomeDaVariavel": "Valor",
+    "variavel": 100,
+    "valor2": 20.2,
+    "array": [1, 2, 3],
+    "objeto": {
+        "nome": "fabio"
+    }
+}
