@@ -14,97 +14,98 @@
   </head>
   <body>
     <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6 col-md-6 my-5">
-            <h2 class="text-center mb-4">CEP Lookup</h2>
-            <form id="cepForm" class="row g-3">
-              <div class="col-md-6 offset-md-3">
-                <label for="cep" class="form-label">CEP</label>
-                <input
-                  type="text"
-                  id="cep"
-                  name="cep"
-                  class="form-control"
-                  placeholder="Digite o CEP"
-                  required
-                />
-              </div>
-              <h3 class="text-center my-4">Informações do Endereço</h3>
-              <div class="col-md-6 offset-md-3">
-                <label for="logradouro" class="form-label">Logradouro</label>
-                <input
-                  type="text"
-                  id="logradouro"
-                  name="logradouro"
-                  class="form-control"
-                  readonly
-                />
-              </div>
-              <div class="col-md-6 offset-md-3">
-                <label for="complemento" class="form-label">Complemento</label>
-                <input
-                  type="text"
-                  id="complemento"
-                  name="complemento"
-                  class="form-control"
-                  readonly
-                />
-              </div>
-              <div class="col-md-6 offset-md-3">
-                <label for="bairro" class="form-label">Bairro</label>
-                <input
-                  type="text"
-                  id="bairro"
-                  name="bairro"
-                  class="form-control"
-                  readonly
-                />
-              </div>
-              <div class="col-md-6 offset-md-3">
-                <label for="localidade" class="form-label">Localidade</label>
-                <input
-                  type="text"
-                  id="localidade"
-                  name="localidade"
-                  class="form-control"
-                  readonly
-                />
-              </div>
-              <div class="col-md-3 offset-md-3">
-                <label for="uf" class="form-label">UF</label>
-                <input
-                  type="text"
-                  id="uf"
-                  name="uf"
-                  class="form-control"
-                  readonly
-                />
-              </div>
-              <div class="col-md-3">
-                <label for="ddd" class="form-label">DDD</label>
-                <input
-                  type="text"
-                  id="ddd"
-                  name="ddd"
-                  class="form-control"
-                  readonly
-                />
-              </div>
-            </form>
-          </div>
-          <div class="col-6 col-md-6 my-5">
-            <div class="d-grid gap-2">
-              <button 
-               type="button"
-               id="navigator"
-               class="m-3 btn btn-outline-success btn-md">
-               Navegar Maps
-              </button>
+      <div class="row align-items-center">
+        <div class="col-6 col-md-6 my-5">
+          <h2 class="text-center mb-4">CEP Lookup</h2>
+          <form id="cepForm" class="row g-3">
+            <div class="col-md-6 offset-md-3">
+              <label for="cep" class="form-label">CEP</label>
+              <input
+                type="text"
+                id="cep"
+                name="cep"
+                class="form-control"
+                placeholder="Digite o CEP"
+                required
+              />
             </div>
-            <div id="map"></div>
+            <h3 class="text-center my-4">Informações do Endereço</h3>
+            <div class="col-md-6 offset-md-3">
+              <label for="logradouro" class="form-label">Logradouro</label>
+              <input
+                type="text"
+                id="logradouro"
+                name="logradouro"
+                class="form-control"
+                readonly
+              />
+            </div>
+            <div class="col-md-6 offset-md-3">
+              <label for="complemento" class="form-label">Complemento</label>
+              <input
+                type="text"
+                id="complemento"
+                name="complemento"
+                class="form-control"
+                readonly
+              />
+            </div>
+            <div class="col-md-6 offset-md-3">
+              <label for="bairro" class="form-label">Bairro</label>
+              <input
+                type="text"
+                id="bairro"
+                name="bairro"
+                class="form-control"
+                readonly
+              />
+            </div>
+            <div class="col-md-6 offset-md-3">
+              <label for="localidade" class="form-label">Localidade</label>
+              <input
+                type="text"
+                id="localidade"
+                name="localidade"
+                class="form-control"
+                readonly
+              />
+            </div>
+            <div class="col-md-3 offset-md-3">
+              <label for="uf" class="form-label">UF</label>
+              <input
+                type="text"
+                id="uf"
+                name="uf"
+                class="form-control"
+                readonly
+              />
+            </div>
+            <div class="col-md-3">
+              <label for="ddd" class="form-label">DDD</label>
+              <input
+                type="text"
+                id="ddd"
+                name="ddd"
+                class="form-control"
+                readonly
+              />
+            </div>
+          </form>
+        </div>
+        <div class="col-6 col-md-6 my-5">
+          <div class="d-grid gap-2">
+            <button
+              type="button"
+              id="navigator"
+              class="m-3 btn btn-outline-success btn-md"
+            >
+              Navegar Maps
+            </button>
           </div>
+          <div id="map"></div>
         </div>
       </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -116,5 +117,6 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

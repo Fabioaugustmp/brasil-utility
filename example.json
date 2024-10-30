@@ -1,9 +1,15 @@
 {
-    "nomeDaVariavel": "Valor",
-    "variavel": 100,
-    "valor2": 20.2,
-    "array": [1, 2, 3],
-    "objeto": {
-        "nome": "fabio"
-    }
+  "cep": "74810907",
+  "state": "GO",
+  "city": "Goiânia",
+  "neighborhood": "Jardim Goiás",
+  "street": "Avenida Deputado Jamel Cecílio 3300",
+  "service": "open-cep",
+  "location": {
+    "type": "Point",
+    "coordinates": {
+         "longitude": "-49.2370242",
+          "latitude": "-16.7072705" 
+        }
+  }
 }
